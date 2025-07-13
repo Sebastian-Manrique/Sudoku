@@ -1,703 +1,1026 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sudoku.mainSudoku">
-  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="13" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="jpanelMain" layout-manager="GridLayoutManager" row-count="11" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="1474" height="470"/>
+      <xy x="20" y="20" width="1474" height="898"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <component id="b9fb2" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="b9fb2" class="javax.swing.JTextField" binding="textField_0_0">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="2" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+        </properties>
       </component>
-      <vspacer id="c0c7">
+      <component id="a3274" class="javax.swing.JTextField" binding="textField_0_1">
         <constraints>
-          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
-      <component id="a3274" class="javax.swing.JTextField" binding="textField2" default-binding="true">
-        <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="1982" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+      <component id="1982" class="javax.swing.JTextField" binding="textField_0_2">
         <constraints>
-          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="208bb" class="javax.swing.JTextField" default-binding="true">
+      <component id="208bb" class="javax.swing.JTextField" binding="textField_0_3">
         <constraints>
-          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="b4de" class="javax.swing.JTextField" default-binding="true">
+      <component id="b4de" class="javax.swing.JTextField" binding="textField_0_4">
         <constraints>
-          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="ae5a" class="javax.swing.JTextField" default-binding="true">
+      <component id="ae5a" class="javax.swing.JTextField" binding="textField_0_5">
         <constraints>
-          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="20938" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="acd87" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="4dd44" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="96f29" class="javax.swing.JTextField" default-binding="true">
+      <component id="96f29" class="javax.swing.JTextField" binding="textField_1_0">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="160c3" class="javax.swing.JTextField" default-binding="true">
+      <component id="160c3" class="javax.swing.JTextField" binding="textField_1_1">
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="5d9df" class="javax.swing.JTextField" default-binding="true">
+      <component id="5d9df" class="javax.swing.JTextField" binding="textField_1_2">
         <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="3c933" class="javax.swing.JTextField" default-binding="true">
+      <component id="3c933" class="javax.swing.JTextField" binding="textField_1_3">
         <constraints>
-          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="c76a1" class="javax.swing.JTextField" default-binding="true">
+      <component id="c76a1" class="javax.swing.JTextField" binding="textField_1_4">
         <constraints>
-          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="2265c" class="javax.swing.JTextField" default-binding="true">
+      <component id="2265c" class="javax.swing.JTextField" binding="textField_1_5">
         <constraints>
-          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="efa76" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="264f4" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="80e86" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="a4178" class="javax.swing.JTextField" default-binding="true">
+      <component id="a4178" class="javax.swing.JTextField" binding="textField_2_0">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="358ef" class="javax.swing.JTextField" default-binding="true">
+      <component id="358ef" class="javax.swing.JTextField" binding="textField_2_1">
         <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="e2b22" class="javax.swing.JTextField" default-binding="true">
+      <component id="e2b22" class="javax.swing.JTextField" binding="textField_2_2">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-30976"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="34a73" class="javax.swing.JTextField" default-binding="true">
+      <component id="34a73" class="javax.swing.JTextField" binding="textField_2_3">
         <constraints>
-          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="51e" class="javax.swing.JTextField" default-binding="true">
+      <component id="51e" class="javax.swing.JTextField" binding="textField_2_4">
         <constraints>
-          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="c9b88" class="javax.swing.JTextField" default-binding="true">
+      <component id="c9b88" class="javax.swing.JTextField" binding="textField_2_5">
         <constraints>
-          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16730401"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="e4a50" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="19ba0" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="fd3f6" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-3863050"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="e6dec" class="javax.swing.JTextField" default-binding="true">
+      <component id="e6dec" class="javax.swing.JTextField" binding="textField_3_0">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="99999" class="javax.swing.JTextField" default-binding="true">
+      <component id="6cbba" class="javax.swing.JTextField" binding="textField_3_2">
         <constraints>
-          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
-      </component>
-      <component id="6cbba" class="javax.swing.JTextField" default-binding="true">
-        <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="59508" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="9e97e" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="a2be5" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="1ece3" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="3fd08" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="a83cf" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="6d740" class="javax.swing.JTextField" default-binding="true">
+      <component id="6d740" class="javax.swing.JTextField" binding="textField_4_0">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="261ec" class="javax.swing.JTextField" default-binding="true">
+      <component id="261ec" class="javax.swing.JTextField" binding="textField_4_1">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+        </properties>
       </component>
-      <component id="25445" class="javax.swing.JTextField" default-binding="true">
+      <component id="25445" class="javax.swing.JTextField" binding="textField_4_2">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="ab86d" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="9ba6b" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="f65f6" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="a4569" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="42716" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="5eed0" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="43e8d" class="javax.swing.JTextField" default-binding="true">
+      <component id="43e8d" class="javax.swing.JTextField" binding="textField_5_0">
         <constraints>
-          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="8a519" class="javax.swing.JTextField" default-binding="true">
+      <component id="8a519" class="javax.swing.JTextField" binding="textField_5_1">
         <constraints>
-          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="e38a" class="javax.swing.JTextField" default-binding="true">
+      <component id="e38a" class="javax.swing.JTextField" binding="textField_5_2">
         <constraints>
-          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="a38dc" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="1876e" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="606a5" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-29273"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="23805" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="aad07" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="6cb04" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-2566080"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="655e1" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="c1f8e" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="7e385" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="edece" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="1923d" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="c4136" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="778d8" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="53ebc" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="32b56" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="73964" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="f3d5a" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="ae6bb" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="16302" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="7825d" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="299db" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="5ed74" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="a7d0d" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="6510e" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="9" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="5383" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="6777" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="a68bb" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-8825857"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="3f54" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="dfcff" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="8dddf" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-65437"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="8f437" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="da0cf" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
       <component id="e0731" class="javax.swing.JTextField" default-binding="true">
         <constraints>
-          <grid row="10" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="-1"/>
+          <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-16719713"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
+        </properties>
       </component>
-      <component id="8e79b" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="8e79b" class="javax.swing.JButton" binding="endButton" default-binding="true">
         <constraints>
-          <grid row="12" column="0" row-span="1" col-span="11" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="0" row-span="1" col-span="11" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <font name="Comic Sans MS" size="20" style="1"/>
+          <text value="End"/>
+        </properties>
+      </component>
+      <component id="99999" class="javax.swing.JTextField" binding="textField_3_1">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16711907"/>
+          <enabled value="true"/>
+          <font name="Comic Sans MS" size="48" style="1"/>
+          <horizontalAlignment value="0"/>
         </properties>
       </component>
       <component id="d8779" class="javax.swing.JLabel">
         <constraints>
-          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="0" row-span="1" col-span="11" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="TIme:"/>
+          <font name="Comic Sans MS" size="16" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Time:"/>
           <visible value="true"/>
         </properties>
       </component>
-      <vspacer id="67486">
-        <constraints>
-          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
-      <vspacer id="2d618">
-        <constraints>
-          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
-      <hspacer id="b79f3">
-        <constraints>
-          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </hspacer>
-      <hspacer id="435f">
-        <constraints>
-          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </hspacer>
     </children>
   </grid>
 </form>
