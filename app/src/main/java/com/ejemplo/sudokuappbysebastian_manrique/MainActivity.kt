@@ -47,7 +47,6 @@ class MainActivity : ComponentActivity() {
                 Column {
                     SudokuAppBySebastianManriqueTheme {
                         Board()
-                        numberLogiscs()
                     }
                 }
             }
@@ -154,7 +153,7 @@ class MainActivity : ComponentActivity() {
     @Composable
     fun SeePreview() {
         SudokuAppBySebastianManriqueTheme {
-            CanvasDraw()
+
         }
     }
 }
